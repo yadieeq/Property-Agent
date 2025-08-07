@@ -1,8 +1,12 @@
 git clone url - connect your project from github
 
 
-
+------------------ push update web --------------------------
 
 git add .                   - выбираем какие файлы будем сохранять (. - все файлы)
 git commit -am"v 1.00.001"  - придумываем имя для твоего сохранения  (v 1.00.001)
 git push                    - сохранение в github ( по факту отправит все твои изменение в сеть)
+
+
+------------------ show other update --------------------------
+git checkout id
