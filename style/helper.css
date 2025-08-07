@@ -1,7 +1,145 @@
+/* color bg fonFamily     что что очень часто повторяется */
+/* :root {
+    --main-bg-color: pink;
+    --bg-btn-confirm : rgb(182, 10, 10);
+} */
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     border: none;
     background-color: transparent;
+}
+
+
+/* ---size--- */
+.max-width-content {
+    max-width: 1200px;
+    width: 96%;
+}
+/* ---------- */
+
+
+/* text */
+    h1 {
+        font-family: "DM Sans";
+        font-size: 140px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+        letter-spacing: -3px;
+    }
+    h2 {
+        font-family: "DM Sans";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 115%; /* 82.8px */
+        letter-spacing: -3px;
+    }
+    h3 {
+        font-family: "DM Sans";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 115%; /* 73.6px */
+        letter-spacing: -3px;
+    }
+    h4 {
+        font-family: "DM Sans";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 48px */
+        letter-spacing: -1px;
+    }
+    h5 {
+        font-family: "DM Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 21.6px */
+    }
+    p {
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; /* 24px */
+    }
+
+    .white-text {
+        color: #FFF;
+    }
+    .black-text {
+        color: #101010;
+    }
+    .gray-text {
+        color: #878787;
+    }
+    .uppercase {
+        text-transform: uppercase;
+    }
+
+/* ---- */
+
+/* display */
+.f-c-c-r {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.f-c-c-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.f-s-c-c {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.f-s-s-c {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.f-s-c-c {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.f-s-s-r {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.f-s-c-c {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.f-s-s-c {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.f-sb-c-r {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+/* ------- */
+
+body {
+    background-color: var(--main-bg-color);
 }
