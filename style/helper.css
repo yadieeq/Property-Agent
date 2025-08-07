@@ -1,8 +1,9 @@
 /* color bg fonFamily     что что очень часто повторяется */
-/* :root {
-    --main-bg-color: pink;
+:root {
+    --main-bg-color: #F9F9FB;
+    --dark-bg-color: #28292D;
     --bg-btn-confirm : rgb(182, 10, 10);
-} */
+}
 * {
     margin: 0;
     padding: 0;
@@ -59,6 +60,13 @@
         font-style: normal;
         font-weight: 700;
         line-height: 120%; /* 21.6px */
+    }
+    h6 {
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; /* 24px */
     }
     p {
         font-family: Inter;
