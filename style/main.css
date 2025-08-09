@@ -1,10 +1,33 @@
 header {
     width: 100%;
 }
+
 main {
     width: 100%;
 }
 
 footer {
     width: 100%;
+}
+
+.header-content {
+    padding: 21.25px 0;
+}
+
+.header__brand-section {
+    width: 100%;
+    gap: 70px;
+}
+
+.header__links {
+    gap: 16px;
+}
+
+.header__login-buttons {
+    width: 100%;
+    gap: 32px;
+}
+
+.header__logo img {
+    width: 140px;
 }
