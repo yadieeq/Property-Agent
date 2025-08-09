@@ -31,3 +31,84 @@ footer {
 .header__logo img {
     width: 140px;
 }
+
+.burger-menu {
+    width: 24px;
+    height: 24px;
+    display: none;
+    position: relative;
+    transition: all .5s;
+}
+
+.burger-menu__content {
+    display: none;
+}
+
+.burger__line {
+    height: 2px;
+    width: 20px;
+    border-radius: 2px;
+    background-color: black;
+    position: absolute;
+    left: 1.5px;
+    transition: all .5s;
+}
+
+.burger__line:nth-child(1) {
+    top: 5px;
+}
+
+.burger__line:nth-child(2) {
+    top: 9px;
+}
+
+.burger__line:nth-child(3) {
+    top: 13px;
+}
+
+.burger__line:nth-child(4) {
+    top: 17px;
+}
+
+.burger-menu:focus {
+    transform: translateX(-100px);
+}
+
+.burger-menu:focus .burger__line:nth-child(1) {
+    top: 11px;
+    transform: rotate(-135deg);
+}
+
+.burger-menu:focus .burger__line:nth-child(2) {
+    top: 11px;
+    transform: rotate(-135deg);
+}
+
+.burger-menu:focus .burger__line:nth-child(3) {
+    top: 11px;
+    transform: rotate(135deg);
+}
+
+.burger-menu:focus .burger__line:nth-child(4) {
+    top: 11px;
+    transform: rotate(135deg);
+}
+
+.burger-menu:focus + .burger-menu__content {
+    display: flex;
+}
+
+/* TODO сделать нормальный вид выпадающего меню, сейчас выпадает но не выровняно */
+
+
+@media screen and (max-width: 900px){
+    .header__login-buttons {
+        display: none;
+    }
+    .header__links {
+        display: none;
+    }
+    .burger-menu {
+        display: flex;
+    }
+}

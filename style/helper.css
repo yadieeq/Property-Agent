@@ -18,6 +18,20 @@
     max-width: 1200px;
     width: 96%;
 }
+.classic-pv {
+    padding: 135px 0;
+}
+
+@media screen and (max-width: 900px) {
+    .max-width-content {
+        width: 94%;
+    }
+    .classic-pv {
+        padding: 75px 0;
+    }
+}
+
+
 /* ---------- */
 
 
