@@ -299,6 +299,11 @@
     background-color: #1D1D21;
     color: #FFF;
 }
+.white-btn {
+    background-color: #FFF;
+    color: #1D1D21;
+    border: 1px solid #1D1D21;
+}
 /* ------- */
 
 body {
