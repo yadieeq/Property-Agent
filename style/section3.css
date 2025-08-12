@@ -1,0 +1,52 @@
+.comfort-interior__info {
+    gap: 106px;
+}
+
+.comfort-interior__title {
+    width: 100%;
+}
+
+.comfort-interior__image {
+    width: 100%;
+}
+
+.comfort-interior__img1 {
+    width: 100%;
+}
+
+.comfort-interior-content {
+    gap: 48px;
+}
+
+.comfort-interior-content img {
+    border-radius: 12px;
+}
+
+.comfort-interior__img2 {
+    width: 70%;
+}
+
+.comfort-interior__title {
+    gap: 16px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .comfort-interior__info {
+        flex-direction: column;
+        gap: 43px;
+    }
+    .comfort-interior-content {
+        max-width: 500px;
+    }
+    .comfort-interior__img1 {
+        width: 50%;
+    }
+    .comfort-interior__image {
+        justify-content: flex-end;
+    }
+    .comfort-interior__title h3 {
+        max-width: 300px;
+    }
+}
