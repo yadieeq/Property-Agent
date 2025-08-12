@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 900px) {
     .max-width-content {
-        width: 94%;
+        width: 90%;
     }
     .classic-pv {
         padding: 75px 0;
@@ -38,7 +38,8 @@
 /* text */
     h1 {
         font-family: "DM Sans";
-        font-size: 140px;
+        /* font-size: 140px; */
+        font-size: clamp(60px, 5vw, 140px);
         font-style: normal;
         font-weight: 700;
         line-height: 110%;
@@ -46,7 +47,8 @@
     }
     h2 {
         font-family: "DM Sans";
-        font-size: 72px;
+        /* font-size: 72px; */
+        font-size: clamp(48px, 4.5vw, 72px);
         font-style: normal;
         font-weight: 700;
         line-height: 115%; /* 82.8px */
@@ -54,7 +56,8 @@
     }
     h3 {
         font-family: "DM Sans";
-        font-size: 64px;
+        /* font-size: 64px; */
+        font-size: clamp(40px, 4vw, 64px);
         font-style: normal;
         font-weight: 700;
         line-height: 115%; /* 73.6px */
@@ -62,7 +65,8 @@
     }
     h4 {
         font-family: "DM Sans";
-        font-size: 40px;
+        /* font-size: 40px; */
+        font-size: clamp(18px, 3.5vw, 40px);
         font-style: normal;
         font-weight: 700;
         line-height: 120%; /* 48px */
@@ -84,7 +88,8 @@
     }
     p {
         font-family: Inter;
-        font-size: 16px;
+        /* font-size: 16px; */
+        font-size: clamp(14px, 1.5vw, 16px);
         font-style: normal;
         font-weight: 400;
         line-height: 150%; /* 24px */
