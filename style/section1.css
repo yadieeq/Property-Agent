@@ -1,0 +1,75 @@
+/* .ecohouse-wrapper {
+    position: relative;
+} */
+
+.ecohouse-content {
+    padding: 20px 0;
+}
+
+.ecohouse-text {
+    width: 66%;
+    gap: 48px;
+}
+
+.ecohouse__title {
+    gap: 24px;
+}
+
+.ecohouse__title p {
+    width: 55%;
+}
+
+.ecohouse__buttons {
+    gap: 16px;
+}
+
+.ecohouse__title button {
+    padding: 8px 12px;
+}
+
+.ecohouse-visual {
+    position: relative;
+    width: 700px;
+    height: 730px;
+}
+
+.ecohouse-visual img {
+    width: 700px;
+    position: absolute;
+    right: -20%;
+    z-index: -1;
+    bottom: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .ecohouse-content {
+        flex-direction: column;
+        max-width: 500px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        /* padding: 50px 0; */
+    }
+    .ecohouse-text {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .ecohouse__title p {
+        width: 100%;
+    }
+    .ecohouse__buttons {
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+    }
+    .ecohouse-visual {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .ecohouse-visual img {
+        position: static;
+        width: 100%;
+    }
+}

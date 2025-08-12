@@ -39,7 +39,7 @@
     h1 {
         font-family: "DM Sans";
         /* font-size: 140px; */
-        font-size: clamp(60px, 5vw, 140px);
+        font-size: clamp(60px, 10vw, 140px);
         font-style: normal;
         font-weight: 700;
         line-height: 110%;
@@ -113,6 +113,9 @@
     }
     .uppercase {
         text-transform: uppercase;
+    }
+    .bold {
+        font-weight: bold;
     }
 
 /* ---- */
@@ -293,6 +296,9 @@
 /* ------- */
 
 /* buttons */
+button {
+    font-size: clamp(14px, 1.5vw, 16px);
+}
 .rounded-btn {
     display: flex;
     padding: 16px 32px;
