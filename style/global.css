@@ -1,1 +1,136 @@
-/* вынести стили хедер футер сюда */
+header {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+.header-content {
+    padding: 21.25px 0;
+}
+
+.header__brand-section {
+    width: 100%;
+    gap: 70px;
+}
+
+.header__links {
+    gap: 16px;
+}
+
+.header__login-buttons {
+    width: 100%;
+    gap: 32px;
+}
+
+.header__logo img {
+    width: 140px;
+}
+
+.burger-menu {
+    width: 24px;
+    height: 24px;
+    display: none;
+    position: relative;
+    transition: all .5s;
+}
+
+.burger__line {
+    height: 2px;
+    width: 20px;
+    border-radius: 2px;
+    background-color: black;
+    position: absolute;
+    left: 1.5px;
+    transition: all .5s;
+}
+
+.burger__line:nth-child(1) {
+    top: 5px;
+}
+
+.burger__line:nth-child(2) {
+    top: 9px;
+}
+
+.burger__line:nth-child(3) {
+    top: 13px;
+}
+
+.burger__line:nth-child(4) {
+    top: 17px;
+}
+
+.burger-menu:focus .burger__line {
+    left: -120px;
+}
+
+.burger-menu:focus .burger__line:nth-child(1) {
+    top: 11px;
+    transform: rotate(-135deg);
+}
+
+.burger-menu:focus .burger__line:nth-child(2) {
+    top: 11px;
+    transform: rotate(-135deg);
+}
+
+.burger-menu:focus .burger__line:nth-child(3) {
+    top: 11px;
+    transform: rotate(135deg);
+}
+
+.burger-menu:focus .burger__line:nth-child(4) {
+    top: 11px;
+    transform: rotate(135deg);
+}
+
+.burger-menu__content {
+    width: 100px;
+    position: fixed;
+    transform: translateX(150%);
+    transition: all .5s;
+    gap: 24px;
+    border: 1px solid black;
+    background-color: #EBEBEB;
+    border-top: 0;
+    z-index: 3;
+}
+
+.burger-menu__button {
+    width: 100%;
+    padding: 4px 8px;
+    border-radius: 0;
+}
+
+.burger-menu:focus .burger-menu__content {
+    position: absolute;
+    transform: translateX(-80%);
+}
+
+.burger-menu__signin {
+    width: 100%;
+    gap: 8px;
+}
+
+.burger-menu__links {
+    width: 100%;
+    gap: 16px;
+}
+
+
+
+
+@media screen and (max-width: 900px){
+    .header__login-buttons {
+        display: none;
+    }
+    .header__links {
+        display: none;
+    }
+    .burger-menu {
+        display: flex;
+    }
+
+}
