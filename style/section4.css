@@ -1,0 +1,26 @@
+.best-places__img {
+    width: 100%;
+}
+
+.best-places__img img{
+    width: 100%;
+}
+
+.best-places__text {
+    width: 100%;
+}
+
+.best-places-content {
+    gap: 67px;
+}
+
+.best-places__text {
+    gap: 32px;
+}
+
+@media screen and (max-width: 900px) {
+    .best-places-content {
+        flex-direction: column;
+        max-width: 500px;
+    }
+}
