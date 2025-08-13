@@ -119,7 +119,52 @@ footer {
     gap: 16px;
 }
 
+.footer-content {
+    gap: 60px;
+}
 
+.footer-block {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-block:nth-child(2) {
+    width: 90%;
+}
+
+.footer__subscribe {
+    max-width: 330px;
+    gap: 22px;
+}
+
+.footer__logo img {
+    width: 60px;
+}
+
+.footer__button {
+    gap: 31px;
+}
+
+.footer__button button {
+    border-radius: 8px;
+    padding: 12px 42px;
+}
+
+.footer__links {
+    gap: 16px;
+}
+
+.footer__email input {
+    height: 46px;
+}
+
+.footer-bottom__block img {
+    width: 134px;
+}
+
+.footer-bottom__block {
+    gap: 55px;
+}
 
 
 @media screen and (max-width: 900px){
