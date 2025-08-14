@@ -1,0 +1,52 @@
+.workflow__title {
+    max-width: 678px;
+}
+
+.workflow-wrapper {
+    gap: 180px;
+    position: relative;
+}
+
+.workflow__title h3 {
+    text-align: center;
+}
+
+.workflow__description {
+    gap: 150px;
+    padding-left: 12%;
+    width: 98%;
+    max-width: 1440px;
+    overflow-x: auto;
+    background-color: red;
+}
+
+.description__block {
+    gap: 20px;
+    width: 437px;
+    min-width: 437px;
+    flex: 0 437px;
+}
+
+.description__block h2 {
+    font-size: clamp(60px, 4.7vw, 80px);
+    color: #E9ECF2;
+}
+
+.description__text {
+    gap: 16px;
+}
+
+.workflow__img1 {
+    width: 160px;
+    position: absolute;
+    left: 14%;
+}
+.workflow__description_c {
+    position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+    .workflow__description {
+        padding-left: 2%;
+    }
+}
