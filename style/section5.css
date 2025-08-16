@@ -1,0 +1,95 @@
+.workflow__title {
+    max-width: 678px;
+    align-self: center;
+}
+
+.workflow-content {
+    gap: 180px;
+    position: relative;
+}
+
+.workflow__title h3 {
+    text-align: center;
+}
+
+.workflow__description {
+    gap: 150px;
+    width: 130%;
+    overflow-x: auto;
+}
+
+.description__block {
+    gap: 20px;
+    min-width: 437px;
+    flex: 0 437px;
+}
+
+.description__block h2 {
+    font-size: clamp(60px, 4.7vw, 80px);
+    color: #E9ECF2;
+}
+
+.description__text {
+    gap: 16px;
+}
+
+.workflow__img1 {
+    position: absolute;
+    width: 13vw;
+    top: 230px;
+    min-width: 100px;
+    max-width: 160px;
+}
+
+.workflow__img2 {
+    position: absolute;
+    width: 25vw;
+    top: 160px;
+    min-width: 180px;
+    max-width: 339px;
+    right: -10%;
+    border-radius: 12px;
+}
+
+.workflow-wrapper svg {
+    position: absolute;
+    bottom: 52%;
+    right: 30%;
+}
+
+@media screen and (max-width: 900px) {
+    .workflow-content {
+        max-width: 500px;
+        gap: 200px;
+    }
+    .workflow__img2 {
+        top: 200px;
+    }
+    .workflow__img1 {
+        top: 185px;
+    }
+    .workflow-wrapper svg {
+        left: 35%;
+    }
+    .description__block {
+        min-width: 200px;
+        flex: 0 200px;
+    }
+    .workflow__description {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .workflow__img2 {
+        top: 250px;
+    }
+    .workflow__img1 {
+        top: 230px;
+    }
+}
+/* @media screen and (min-width: 1700px) {
+    .workflow__description {
+        align-self: center;
+    }
+} */
