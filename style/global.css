@@ -63,7 +63,7 @@ footer {
 }
 
 .burger-menu:focus .burger__line {
-    left: -120px;
+    /* left: -120px; */
 }
 
 .burger-menu:focus .burger__line:nth-child(1) {
@@ -90,6 +90,7 @@ footer {
     width: 100px;
     position: fixed;
     transform: translateX(150%);
+    top: 40px;
     transition: all .5s;
     gap: 24px;
     border: 1px solid black;
@@ -106,7 +107,7 @@ footer {
 
 .burger-menu:focus .burger-menu__content {
     position: absolute;
-    transform: translateX(-80%);
+    transform: translateX(-20%);
 }
 
 .burger-menu__signin {
@@ -168,6 +169,12 @@ footer {
 
 
 @media screen and (max-width: 900px){
+    .header-content {
+        max-width: 500px;
+    }
+    .burger-menu__content {
+        right: 0;
+    }
     .header__login-buttons {
         display: none;
     }
